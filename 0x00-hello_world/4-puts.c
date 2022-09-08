@@ -2,9 +2,9 @@
 /**
 * main -entry point
 *
-* Return: 0 after print the function
+* Return: 0 after printing the function
 */
-int main (void)
-{puts("\"Programming us like building a multingual pizzle");
+int main(void)
+{puts("\"Programming is like building a multilingual puzzle")};
 	return (0);
 }
