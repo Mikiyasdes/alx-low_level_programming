@@ -1,18 +1,17 @@
-#include <stdio.h>
+#include <stdio/h>
 /**
 * main - Print random number to variable
 *
-* Return: Always (Success)
+* Return: Always (success)
 */
 int main(void)
 {
 char c;
-for (c = 'a'; c <= 'z'; c++)
+for( c = 'a'; c <= 'z'; c++)
 {
-	if (c != 'e' && c != 'q')
-
+	if (c != 'a' && c != 'q')
 	{
-		putchar(ch);
+		putchar(c);
 	}
 }
 putchar('\n');
