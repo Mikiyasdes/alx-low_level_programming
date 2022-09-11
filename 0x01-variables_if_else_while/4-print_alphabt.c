@@ -1,15 +1,15 @@
-#include <stdio/h>
+#include <stdio.h>
 /**
 * main - Print random number to variable
 *
-* Return: Always (success)
+* Return: Always (Success)
 */
 int main(void)
 {
 char c;
-for( c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
-	if (c != 'a' && c != 'q')
+	if (c != 'e' && c != 'q')
 	{
 		putchar(c);
 	}
