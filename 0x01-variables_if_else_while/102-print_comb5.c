@@ -1,4 +1,4 @@
-#include <stdio.d>
+#include <stdio.h>
 /**
 * main - Print numbers
 *
@@ -11,13 +11,13 @@ for (i = 0; i <= 100; i++)
 {
 	for (p = 0; p <= 100; p++)
 	{
-		if (p > i);
+		if (p > i)
 		{
-			putchar((i / 10) + '0')
-			putchar((i % 10) + '0')
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
 			putchar(' ');
-			putchar((p / 10) + '0')
-			putchar((p % 10) + '0')
+			putchar((p / 10) + '0');
+			putchar((p % 10) + '0');
 			if (i != 98)
 			{
 				putchar(',');
@@ -27,5 +27,5 @@ for (i = 0; i <= 100; i++)
 	}
 }
 putchar('\n');
-return(0);
+return (0);
 }
