@@ -1,16 +1,18 @@
 #include <stdio.h>
 /**
-* main - Print random number to variable
+* main - Print number
 *
-* Return: Always (success)
+* Return: Always (Success)
 */
-int main(void);
+int main(void)
 {
-int i;
-for (i = '0'; i <= '9'; i++)
-{
-	putchar(i);
-}
+int c;
+c = 0;
+while
+	(c < 10) {
+			putchar(c + '0');
+			c++;
+	}
 putchar('\n');
 return (0);
 }
